@@ -5,7 +5,8 @@ function Login() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
-     const {setUser} = useContext(UserContext)
+     const {setUser} = useContext(UserContext)  
+     //in this method you have the access of all the variables and methods that has been declared under Context provider 
 
     const handlesubmit = (e) => {
         e.preventDefault()
